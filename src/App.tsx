@@ -1,13 +1,7 @@
-import { SignIn } from "./components/pages/SignIn";
+import { SignIn } from "./pages/SignIn"
 
-import './styles/global.css'
+import "./styles/global.css"
 
-
-export  function App() {
-
-
-  return (
-    <SignIn />
-  
-      )
-    }
+export function App() {
+  return <SignIn />
+}
